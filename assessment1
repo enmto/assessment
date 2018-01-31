@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>あなたのいいところ診断</title>
+    <link rel="stylesheet" href="assessment1.css">
+</head>
+<body>
+    <h1>あなたのいいところを診断します</h1>
+    <p>診断したい名前を入力すると結果がでます</p>
+    <input type="text" id="user-name" maxlength="20" size="40">
+    <button id="assessment">診断します</button>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script src="assessment1.js"></script>
+    
+</body>
+</html>
